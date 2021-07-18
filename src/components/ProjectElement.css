@@ -1,0 +1,123 @@
+.project-element-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-description {
+    width: 810px;
+    margin: 45px auto 40px auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+.project-flex {
+    display: flex;
+    justify-content: center;
+}
+.project-cover-img {
+    width: initial;
+    height: 380px;
+    text-align: center;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+
+}
+.project-info {
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.project-technology {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.project-technology span {
+    margin: 0 20px;
+    padding: 7px;
+}
+.project-link {
+    margin-top: 20px;
+    font-size: 19px;
+}
+.project-link span,
+.project-link a {
+    padding: 7px;
+    text-decoration: none;
+}
+
+@media (max-width: 960px) {
+    .project-description {
+        width: 85%;
+        font-size: 19px;
+        margin: 55px auto 50px auto;
+    }
+
+    .project-flex {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-cover-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-info {
+        margin-top: 45px;
+        width: 90%;
+        font-size: 19px;
+    }
+
+    .project-technology {
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 834px) {
+    .project-description {
+        font-size: 18px;
+    }
+
+    .project-info {
+        width: 90%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-flex {
+        width: 90%;
+    }
+    .project-technology {
+        display: flex;
+        justify-content: space-evenly;   
+        flex-wrap: wrap;
+    }
+    .project-technology span {
+        padding: 7px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 568px) {
+    .project-description {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 414px) {
+    .project-info {
+        font-size: 17px;
+    }
+    .project-link {
+        font-size: 17px;
+    }
+    .project-technology {
+        font-size: 17px;
+    }
+}

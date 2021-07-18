@@ -1,0 +1,10 @@
+div.images-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 812px) {
+
+}

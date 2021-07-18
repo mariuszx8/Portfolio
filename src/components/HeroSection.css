@@ -1,0 +1,45 @@
+.hero-container {
+    height: calc(100vh - 5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-box {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.title-box span {
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+@media (max-width: 768px) {
+
+    .title-box span {
+        font-size: 30px;
+    }
+
+}
+
+
+@media (max-width: 568px) {
+
+    .title-box span {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 376px) {
+
+    .title-box span {
+        font-size: 22px;
+    }
+
+}
