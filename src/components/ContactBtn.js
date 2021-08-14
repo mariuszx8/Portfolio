@@ -25,7 +25,8 @@ function ContactBtn() {
                     <div>mariusz.kudlacz(a)op.pl</div>
                     <br/>
                     <div>
-                        <a className='link-no-style' href='https://www.linkedin.com/in/mariusz-kud%C5%82acz-00090b1b7/'>LinkedIn</a>
+                        <a className='link-no-style' href='https://www.linkedin.com/in/mariusz-kud%C5%82acz-00090b1b7/'>LinkedIn</a>,&nbsp;
+                        <a className='link-no-style' href='https://github.com/mariuszx8'>GitHub</a>
                     </div>
                 </span>
             </div>
