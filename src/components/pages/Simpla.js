@@ -6,6 +6,14 @@ const ProjectElement = React.lazy(() => import('../ProjectElement'));
 
 function Simpla() {
 
+    const images = [
+        {
+            src: "./assets/Simpla.gif",
+            width: 52,
+            height: 25
+        }
+      ]
+
     const technology = [{ name: 'Wordpress' }, { name: 'Elementor' }, {name: 'CSS'}];
 
     return (
@@ -20,6 +28,8 @@ function Simpla() {
                     description="Minimalistyczna, w  pełni responsywna, oparta na Wordpressie strona prezentująca aplikację do nauki, opartą na metodzie tzw. 'fiszek'. "
                     technology={technology}
                     nolink="Strona już nie istnieje"
+                    images={images}
+                    direction="row"
                 />
             </Suspense>
         </div>

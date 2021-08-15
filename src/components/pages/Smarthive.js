@@ -6,18 +6,28 @@ const ProjectElement = React.lazy(() => import('../ProjectElement'));
 
 function Smarthive() {
 
-    // const images = [
-    //     "./resources/bgdefault.jpg",
-    //     "./resources/bg1.jpg",
-    //     "./resources/bg2.jpg",
-    //     "./resources/bg3.jpg",
-    //     "./resources/bg4.jpg",
-    //     "./resources/bg5.jpg",
-    //     "./resources/bg6.jpg",
-    //     "./resources/bg7.jpg",
-    //     "./resources/bg8.jpg"
-    //   ]
-    // const items = [{ name: 'item 1' }, { name: 'item2' }];
+    const images = [
+        {
+            src: "./assets/sh1.png",
+            width: 3,
+            height: 4
+        },
+        {
+            src: "./assets/sh2.png",
+            width: 14,
+            height: 25
+        },        
+        {
+            src: "./assets/sh3.png",
+            width: 16,
+            height: 25
+        },        
+        {
+            src: "./assets/sh4.png",
+            width: 71,
+            height: 50
+        }
+      ]
 
     const technology = [{ name: 'Angular' }, {name: 'SCSS'}, {name: 'HTML'}];
 
@@ -33,6 +43,7 @@ function Smarthive() {
                     description="Prosta strona stworzona dla projektu Smarthive, oparta na frameworku Angular. Prezentuje niezbędne informacje dotyczące projektu oraz zawiera formularz kontaktowy."
                     technology={technology}
                     link="https://smarthive.pl/"
+                    images={images}
                 />
             </Suspense>
         </div>

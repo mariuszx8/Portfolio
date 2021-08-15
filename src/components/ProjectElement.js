@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProjectElement.css'
+import Gallery from 'react-photo-gallery';
 
 function ProjectElement(props) {
     return (
@@ -23,6 +24,14 @@ function ProjectElement(props) {
                         {props.link ? <a className='black' href={props.link}>{props.name}</a> : <span className='black'>{props.nolink}</span>}
                     </div>
                 </div>
+                {props.images ? 
+                    <div>
+                        <p>Galeria:</p> 
+                        <div className='project-gallery'> 
+                            <Gallery photos={props.images} margin={5} direction={props.direction ? props.direction : 'column'}/>
+                        </div>
+                    </div> 
+                    : " "}
             </div>
         </div>
     )
