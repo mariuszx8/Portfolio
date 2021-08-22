@@ -11,6 +11,9 @@ function ProjectElement(props) {
                     className='project-cover-img'
                     alt={props.name}
                     src={props.src}
+                    width={props.width}
+                    height={props.height}
+                    srcSet={props.srcSet}
                 />
             </div>
             <div className='project-info'>

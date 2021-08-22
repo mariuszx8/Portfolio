@@ -12,6 +12,7 @@ function Portfolio() {
         <Suspense fallback={<div className="progress-bar"><CircularProgress /></div>}>
             <ContactBtn/>
             <Header title='Realizacje' back='/'/>
+            <link rel="preload" as="image" href="/assets/Smarthive-mockup.png"/>
             <ImagesContainer/>
             <Footer/>
         </Suspense>

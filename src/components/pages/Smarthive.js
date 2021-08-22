@@ -9,23 +9,28 @@ function Smarthive() {
     const images = [
         {
             src: "./assets/sh1.png",
-            width: 3,
-            height: 4
+            width: 1536,
+            height: 2048,
+            alt: "Strona Smarthive 1",
+            // srcSet: "./assets/sh1-s.png 500w, ./assets/sh1-m.png 1000w, ./assets/sh1.png 1536w"
         },
         {
             src: "./assets/sh2.png",
-            width: 14,
-            height: 25
+            width: 1079,
+            height: 1919,
+            alt: "Strona Smarthive 2",
         },        
         {
             src: "./assets/sh3.png",
-            width: 16,
-            height: 25
+            width: 1920,
+            height: 3018,
+            alt: "Strona Smarthive 3",
         },        
         {
             src: "./assets/sh4.png",
-            width: 71,
-            height: 50
+            width: 1920,
+            height: 1345,
+            alt: "Strona Smarthive 4",
         }
       ]
 
@@ -39,11 +44,14 @@ function Smarthive() {
                 <link rel="preload" as="image" href="/assets/Smarthive.png" />
                 <ProjectElement 
                     name='Strona Smarthive'
-                    src='/assets/Smarthive.png'
+                    src='./assets/Smarthive.png'
                     description="Prosta strona stworzona dla projektu Smarthive, oparta na frameworku Angular. Prezentuje niezbędne informacje dotyczące projektu oraz zawiera formularz kontaktowy."
                     technology={technology}
                     link="https://smarthive.pl/"
                     images={images}
+                    width="1900"
+                    height="933"
+                    srcSet='./assets/Smarthive-s.png 400w, ./assets/Smarthive-m.png 900w, ./assets/Smarthive.png 1900w'
                 />
             </Suspense>
         </div>

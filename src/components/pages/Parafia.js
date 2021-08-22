@@ -16,11 +16,14 @@ function Parafia() {
                 <link rel="preload" as="image" href="/assets/Parafia_Przyszowa.png"/>
                 <ProjectElement 
                     name='Parafia Przyszowa'
-                    src='/assets/Parafia_Przyszowa.png'
+                    src='./assets/Parafia_Przyszowa.png'
                     description="Prosta i elegancka strona oparta na Wordpressie. W pełni responsywna, pozwala na dodawanie postów z wiadomościami. 
                     Wygląd strony był kompromisem pomiędzy minimalistycznym podejściem w tworzeniu nowoczesnych stron, a poprzednią wersją strony."
                     technology={technology}
                     nolink="Strona już nie istnieje"
+                    width="1907"
+                    height="936"
+                    srcSet="./assets/Parafia_Przyszowa-s.png 400w, ./assets/Parafia_Przyszowa-m.png 900w, ./assets/Parafia_Przyszowa.png 1907w"
                 />
             </Suspense>
         </div>

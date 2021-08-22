@@ -11,6 +11,9 @@ function ImageItem(props) {
                     className='image-item-img'
                     alt={props.name}
                     src={props.src}
+                    width={props.width}
+                    height={props.height}
+                    srcSet={props.srcSet}
                 />
                 <p className='image-item-name'>
                     <span className="black">{props.name}</span>
