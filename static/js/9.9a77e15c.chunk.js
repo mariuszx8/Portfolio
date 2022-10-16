@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio_react=this.webpackJsonpportfolio_react||[]).push([[9],{57:function(e,t,s){},68:function(e,t,s){"use strict";s.r(t);s(0),s(57);var a=s(2);t.default=function(){return Object(a.jsx)("footer",{className:"black",children:Object(a.jsxs)("span",{className:"website-rights",children:["\xa9 ",(new Date).getFullYear()," Mariusz Kud\u0142acz"]})})}}}]);
+//# sourceMappingURL=9.9a77e15c.chunk.js.map

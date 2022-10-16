@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio_react=this.webpackJsonpportfolio_react||[]).push([[1],{56:function(e,a,c){},67:function(e,a,c){"use strict";c.r(a);c(0),c(56);var t=c(16),s=c(2);a.default=function(e){return Object(s.jsx)("header",{children:Object(s.jsxs)("span",{className:"black inline-flex",children:[Object(s.jsx)(t.b,{to:e.back,className:"arrow-back inline-flex",children:Object(s.jsx)("span",{className:"material-icons",children:"arrow_right_alt"})}),Object(s.jsx)("span",{className:"text",children:e.title})]})})}}}]);
+//# sourceMappingURL=1.18943008.chunk.js.map
